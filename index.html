@@ -35,6 +35,39 @@
     <link href="assets/css/styles.css" rel="stylesheet" />
   </head>
   <body class="bg-light">
+    <header
+      id="header"
+      class="header d-flex flex-column justify-content-center"
+    >
+      <i class="header-toggle d-xl-none bi bi-list"></i>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="#home" class="active"
+              ><i class="bi bi-house navicon"></i><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about"
+              ><i class="bi bi-person navicon"></i><span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#resume"
+              ><i class="bi bi-file-earmark-text navicon"></i
+              ><span>Resume</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio"
+              ><i class="bi bi-images navicon"></i><span>Projects</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <!--Main-->
     <main id="home" class="py-5">
       <div class="container px-5 pb-5">
@@ -51,7 +84,10 @@
                 <span class="text-gradient d-inline">M ADAM RAYA</span>
                 <p style="font-size: 35px">
                   I'm
-                  <span>Junior Web Developer</span
+                  <span
+                    class="typed"
+                    data-typed-items="Student, Junior Web Developer, Designer"
+                    >Student</span
                   ><span
                     class="typed-cursor typed-cursor--blink"
                     aria-hidden="true"
@@ -64,12 +100,12 @@
                     class="wa"
                     ><i class="bi bi-whatsapp"></i
                   ></a>
-                  <!-- <a
+                  <a
                     href="https://www.instagram.com/adamraya._/"
                     target="_blank"
                     class="ig"
                     ><i class="bi bi-instagram"></i
-                  ></a> -->
+                  ></a>
                   <a
                     href="https://www.linkedin.com/in/m-adam-raya-3b6201235/"
                     target="_blank"
